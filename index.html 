@@ -88,6 +88,14 @@ footer{
     <div class="card">
       <h3>PUBG MOBILE</h3>
       <p>Gaming Videos</p>
+
+<iframe
+  width="100%"
+  height="220"
+  src="https://www.youtube.com/embed/eV9VPMPIe_M"
+  title="PUBG MOBILE"
+  allowfullscreen>
+</iframe>
     </div>
     <div class="card">
       <h3>GODOT GAME</h3>
