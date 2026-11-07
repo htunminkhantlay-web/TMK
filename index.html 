@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TMK Official Website</title>
+
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:#101018;
+  color:white;
+  font-family:Arial,sans-serif;
+}
+header{
+  background:#191925;
+  padding:18px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.logo{font-size:28px;color:#00e5ff;font-weight:bold}
+nav a{
+  color:white;
+  text-decoration:none;
+  margin:5px;
+}
+.hero{
+  text-align:center;
+  padding:65px 15px;
+  background:linear-gradient(135deg,#17172c,#073d50);
+}
+.hero h1{font-size:48px;color:#00e5ff}
+.hero p{font-size:18px}
+button{
+  background:#00c8e8;
+  border:0;
+  padding:13px 25px;
+  border-radius:25px;
+  font-weight:bold;
+}
+section{padding:25px}
+h2{color:#00e5ff}
+.videos{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:15px;
+}
+.card{
+  background:#20202d;
+  padding:18px;
+  border-radius:12px;
+}
+.card h3{color:#00e5ff}
+footer{
+  text-align:center;
+  padding:25px;
+  background:#191925;
+  color:#aaa;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">TMK</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#videos">Videos</a>
+    <a href="#about">About</a>
+  </nav>
+</header>
+
+<div class="hero" id="home">
+  <h1>TMK VIDEO</h1>
+  <p>MY OFFICIAL WEBSITE</p>
+  <p>Like · Share · Subscribe</p>
+  <button onclick="location.href='#videos'">
+    Watch Videos
+  </button>
+</div>
+
+<section id="videos">
+  <h2>Latest Videos</h2>
+  <div class="videos">
+    <div class="card">
+      <h3>PUBG MOBILE</h3>
+      <p>Gaming Videos</p>
+    </div>
+    <div class="card">
+      <h3>GODOT GAME</h3>
+      <p>Game Development</p>
+    </div>
+    <div class="card">
+      <h3>ANDROID APP</h3>
+      <p>App Development</p>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <h2>About TMK</h2>
+  <p>Welcome to TMK Official Website.</p>
+  <p>Thank you for visiting our website!</p>
+</section>
+
+<footer>
+  © 2026 TMK Official Website
+</footer>
+
+</body>
+</html>
